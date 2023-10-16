@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+}
+
+body {
+  background-image: url(./images/night-1450087_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  width: 60%;
+  margin-top: 10%;
+  padding: 5% 3%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* .inner{
+    border: 2px solid aqua;
+} */
+
+.top {
+  display: flex;
+  padding-left: 10%;
+}
+
+.name {
+  font-size: 22px;
+  margin-top: 3%;
+  color: white;
+}
+
+.pic {
+  width: 30%;
+}
+
+.top img {
+  width: 12%;
+}
+
+.platforms {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.card{
+    width: 45% ;
+}
+
+.label h3 {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: black !important;
+}
+
+@media (max-width: 850px) {
+    .platforms{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .contain{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 70%;
+    }
+    .top img {
+        width: 18%;
+      }
+    
+}
