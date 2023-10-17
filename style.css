@@ -6,11 +6,6 @@
 }
 
 body {
-  background-image: url(./images/night-1450087_640.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  align-content: center;
   display: flex;
   justify-content: center;
 }
@@ -27,45 +22,24 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-/* .inner{
-    border: 2px solid aqua;
-} */
-
 .top {
-  display: flex;
   padding-left: 10%;
 }
 
 .name {
   font-size: 22px;
   margin-top: 3%;
-  color: white;
-}
-
-.pic {
-  width: 30%;
-}
-
-.top img {
-  width: 12%;
 }
 
 .platforms {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 2%;
-}
-
-.card{
-    width: 45% ;
-}
-
-.label h3 {
-  font-size: 22px;
+  margin-top: 5%;
 }
 
 a {
   text-decoration: none !important;
+  font-size: 28px;
 }
 
 a:hover {
@@ -73,21 +47,9 @@ a:hover {
 }
 
 @media (max-width: 850px) {
-    .platforms{
-        display: flex;
-        flex-direction: column;
-    }
-    .card{
-        width: 100%;
-        margin-top: 2%;
-    }
     .contain{
-        margin-top: 10%;
+        margin-top: 20%;
         margin-bottom: 10%;
         width: 70%;
     }
-    .top img {
-        width: 18%;
-      }
-    
 }
